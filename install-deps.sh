@@ -8,6 +8,7 @@
 # Hyprland specific
 yay -S hyprland-git \
        hypridle-git \
+       hyprpaper-git \
        xdg-desktop-portal-hyprland-git
        #hyprlock-git \
 

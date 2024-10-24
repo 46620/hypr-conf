@@ -1,1 +1,2 @@
-\.sh
+deploy.sh
+install-deps.sh
