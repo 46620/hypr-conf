@@ -6,11 +6,12 @@
 #yay -S sdbus-cpp-git
 
 # Hyprland specific
-yay -S hypr{land,idle,paper,lock}-git \
+yay -S hypr{cursor,graphics,idle,land,land-protocols,land-qtutils,lang,lock,paper,polkitagent,utils,wayland-scanner}-git \
        xdg-desktop-portal-hyprland-git
 
 # Other AUR shit
-yay -S flameshot-git
+yay -S flameshot-git \
+       uwsm
 
 # Fucking everything else
 sudo pacman -S kitty \
