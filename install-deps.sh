@@ -6,11 +6,8 @@
 #yay -S sdbus-cpp-git
 
 # Hyprland specific
-yay -S hyprland-git \
-       hypridle-git \
-       hyprpaper-git \
+yay -S hypr{land,idle,paper,lock}-git \
        xdg-desktop-portal-hyprland-git
-       #hyprlock-git \
 
 # Other AUR shit
 yay -S flameshot-git
