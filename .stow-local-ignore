@@ -1,2 +1,6 @@
 deploy.sh
 install-deps.sh
+hosts
+\.gitignore
+^/README.*
+\.git
