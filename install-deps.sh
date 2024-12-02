@@ -21,4 +21,5 @@ sudo pacman -S kitty \
                otf-font-awesome \
                grim \
                slurp \
-               wl-clipboard
+               wl-clipboard \
+               brightnessctl
