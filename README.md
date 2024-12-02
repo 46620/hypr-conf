@@ -1,6 +1,10 @@
 # hypr-conf
 My personal hyprland configs.
 
-I wanna sync these between devices and have a backup in case I fucking nuke shit.
-
-Recommended apps to have installed
+Needs to be set-up:
+- Yuzuriha
+  - hypridle
+  - hyprlock
+  - swaybar
+- Farris
+  - Everything
