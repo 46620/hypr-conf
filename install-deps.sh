@@ -7,7 +7,11 @@
 
 # Hyprland specific
 yay -S hypr{cursor,graphics,idle,land,land-protocols,land-qtutils,lang,lock,paper,polkitagent,utils,wayland-scanner}-git \
+       aquamarine-git \
        xdg-desktop-portal-hyprland-git
+
+systemctl --user enable --now hyprpaper.service
+systemctl --user enable --now hypridle.service
 
 # Other AUR shit
 yay -S flameshot-git \
