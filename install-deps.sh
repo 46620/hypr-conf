@@ -6,7 +6,7 @@
 #yay -S sdbus-cpp-git
 
 # Hyprland specific
-yay -S hypr{cursor,graphics,idle,land,land-protocols,land-qtutils,lang,lock,paper,polkitagent,utils,wayland-scanner}-git \
+yay -S hypr{cursor,graphics,idle,land,land-protocols,land-qtutils,lang,lock,paper,polkitagent,utils,wayland-scanner,picker,shot}-git \
        aquamarine-git \
        xdg-desktop-portal-hyprland-git
 
