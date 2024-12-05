@@ -19,5 +19,5 @@ then
 fi
 
 echo " [*  ] Deploying configs"
-rm -rvf ~/.config/hypr/*
-stow . -t ~/.config
+rm -rvf ~/.config/hypr/* # Because of the amount of moving files, I nuke the hyprland folder just in case old symlinks stay
+stow -v . -t ~/.config
