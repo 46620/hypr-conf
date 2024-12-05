@@ -12,6 +12,7 @@ then
     echo " [*  ] Grabbing device specific configs before updating"
     cp -v hosts/"$HOSTNAME"/binds.conf hypr/binds.conf.d/999-device.conf
     cp -v hosts/"$HOSTNAME"/vars.conf hypr/vars.conf.d/999-device.conf
+    cp -v hosts/"$HOSTNAME"/workspacerule.conf hypr/workspacerule.conf.d/999-device.conf
     cp -v hosts/"$HOSTNAME"/monitors.conf hypr/monitors.conf
     cp -v hosts/"$HOSTNAME"/hyprpaper.conf hypr/hyprpaper.conf
     cp -v hosts/"$HOSTNAME"/hypridle.conf hypr/hypridle.conf
