@@ -6,7 +6,7 @@
 #yay -S sdbus-cpp-git
 
 # Hyprland specific
-yay -S --noconfirm hypr{cursor,graphics,idle,land,land-protocols,land-qtutils,lang,lock,paper,polkitagent,utils,wayland-scanner,picker,shot}-git \
+yay -S --cleanafter --noconfirm hypr{cursor,graphics,idle,land,land-protocols,land-qtutils,lang,lock,paper,polkitagent,utils,wayland-scanner,picker,shot}-git \
        aquamarine-git \
        xdg-desktop-portal-hyprland-git
 
@@ -14,7 +14,7 @@ systemctl --user enable --now hyprpaper.service
 systemctl --user enable --now hypridle.service
 
 # Other AUR shit
-yay -S --noconfirm uwsm
+yay -S --cleanafter --noconfirm uwsm
        #flameshot-git \ # Currently not used in any config, don't install for now
 
 # Fucking everything else
