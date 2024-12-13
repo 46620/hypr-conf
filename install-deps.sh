@@ -14,12 +14,12 @@ systemctl --user enable --now hyprpaper.service
 systemctl --user enable --now hypridle.service
 
 # Other AUR shit
-yay -S --cleanafter --noconfirm uwsm
+yay -S --cleanafter --noconfirm uwsm \
+        tofi
        #flameshot-git \ # Currently not used in any config, don't install for now
 
 # Fucking everything else
 sudo pacman -S --noconfirm kitty \
-               wofi \
                dunst \
                waybar \
                otf-font-awesome \
