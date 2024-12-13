@@ -1,10 +1,9 @@
 # hypr-conf
 My personal hyprland configs.
 
-Needs to be set-up:
-- Yuzuriha
-  - swaybar
-- Farris
-  - hyprlock
-  - hypridle
-  - hyprpaper
+TODO:
+- swaybar
+- dunst
+- Music player
+- Have apps use themes
+- Merge dotfiles and rename repo
