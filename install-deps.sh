@@ -20,7 +20,6 @@ yay -S --cleanafter --noconfirm uwsm \
 
 # Fucking everything else
 sudo pacman -S --noconfirm kitty \
-               wofi \
                dunst \
                waybar \
                otf-font-awesome \
