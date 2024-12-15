@@ -27,4 +27,5 @@ sudo pacman -S --noconfirm kitty \
                grim \
                slurp \
                wl-clipboard \
-               brightnessctl
+               brightnessctl \
+               swappy
