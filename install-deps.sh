@@ -27,4 +27,6 @@ sudo pacman -S --noconfirm kitty \
                slurp \
                wl-clipboard \
                brightnessctl \
-               swappy
+               swappy \
+               thunar \
+               gwenview
