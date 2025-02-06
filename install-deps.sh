@@ -8,7 +8,8 @@ then
        aquamarine-git \
        xdg-desktop-portal-hyprland-git
 else
-    sudo pacman -S hyprland
+    sudo pacman -S hyprland hypridle hyprlock hyprpaper
+    yay -S hyprshot
 fi
 #systemctl --user enable --now hyprpaper.service
 #systemctl --user enable --now hypridle.service
