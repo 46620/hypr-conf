@@ -29,4 +29,5 @@ sudo pacman -S --noconfirm kitty \
                brightnessctl \
                swappy \
                thunar \
+               stow \
                gwenview
