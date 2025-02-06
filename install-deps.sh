@@ -1,17 +1,17 @@
 #!/bin/bash
 
-# Shit quick script, fuck you <3
+readonly USER_HAS_BRAIN_DAMAGE=1 # Set this to 0 to use stable builds, set to 1 to use git builds.
 
-# Forced deps
-#yay -S sdbus-cpp-git
-
-# Hyprland specific
-yay -S --cleanafter --noconfirm hypr{cursor,graphics,idle,land,land-protocols,land-qtutils,lang,lock,paper,polkitagent,utils,wayland-scanner,picker,shot}-git \
+if [ $USER_HAS_BRAIN_DAMAGE -eq 1 ]
+then
+    yay -S --cleanafter --noconfirm hypr{cursor,graphics,idle,land,land-protocols,land-qtutils,lang,lock,paper,polkitagent,utils,wayland-scanner,picker,shot}-git \
        aquamarine-git \
        xdg-desktop-portal-hyprland-git
-
-systemctl --user enable --now hyprpaper.service
-systemctl --user enable --now hypridle.service
+else
+    sudo pacman -S hyprland
+fi
+#systemctl --user enable --now hyprpaper.service
+#systemctl --user enable --now hypridle.service
 
 # Other AUR shit
 yay -S --cleanafter --noconfirm uwsm \
