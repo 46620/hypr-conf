@@ -17,6 +17,7 @@ then
     cp -v hosts/"$HOSTNAME"/hyprpaper.conf hypr/hyprpaper.conf
     cp -v hosts/"$HOSTNAME"/hypridle.conf hypr/hypridle.conf
     cp -v hosts/"$HOSTNAME"/hyprlock.conf hypr/hyprlock.conf
+    cp -v hosts/"$HOSTNAME"/autostart.conf hypr/autostart.conf.d/999-device.conf
 fi
 
 echo " [*  ] Deploying configs"

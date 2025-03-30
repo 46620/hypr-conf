@@ -1,16 +1,7 @@
 #!/bin/bash
 
-readonly USER_HAS_BRAIN_DAMAGE=1 # Set this to 0 to use stable builds, set to 1 to use git builds.
-
-if [ $USER_HAS_BRAIN_DAMAGE -eq 1 ]
-then
-    yay -S --cleanafter --noconfirm hypr{cursor,graphics,idle,land,land-protocols,land-qtutils,lang,lock,utils,wayland-scanner,picker,shot}-git \
-       aquamarine-git \
-       xdg-desktop-portal-hyprland-git
-else
-    sudo pacman -S hyprland hypridle hyprlock hyprpaper
-    yay -S hyprshot
-fi
+sudo pacman -S hyprland aquamarine hypr{cursor,graphics,lock,paper,land-protocols,land-qtutils,lang,utils,wayland-scanner,picker,land-qt-support,idle} xdg-desktop-portal-hyprland # don't ask why this is 30 years long, will remove stuff later when testing is done
+yay -S hyprshot
 
 # Auto start systemd services
 # UNUSED AS THEY ARE JUST SET TO LOAD ON HYPRLAND START (I use multiple DEs and it got annoying)
