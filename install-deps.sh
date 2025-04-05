@@ -24,7 +24,7 @@ sudo pacman -S --noconfirm \
                wl-clipboard \
                brightnessctl \
                swappy \
-               thunar \
+               dolphin \
                stow \
                gwenview \
                polkit-kde-agent # This is borrowed from the archinstall command

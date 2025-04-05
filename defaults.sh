@@ -5,7 +5,8 @@
 # Will not make this look good, will not do it clean, fuck you :3
 
 # File manager
-xdg-mime default thunar.desktop inode/directory
+xdg-mime default org.kde.dolphin.desktop inode/directory
+xdg-mime default org.kde.ark.desktop application/zip
 
 # Pictures
 xdg-mime default org.kde.gwenview.desktop image/jpg
