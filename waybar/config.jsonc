@@ -20,10 +20,8 @@
         "backlight",
         "keyboard-state",
         "battery",
-        "battery#bat2",
         "clock",
         "tray",
-        "image",
         "custom/power"
     ],
     // Modules configuration
@@ -84,7 +82,7 @@
     },
     "tray": {
         //"icon-size": 21,
-        "spacing": 10
+        "spacing": 5
     },
     "clock": {
         "timezone": "America/New_York",
@@ -121,9 +119,6 @@
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
     },
-    "battery#bat2": {
-        "bat": "BAT2"
-    },
     "power-profiles-daemon": {
       "format": "{icon}",
       "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
@@ -137,7 +132,7 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-wifi": "{essid} ",
         "format-ethernet": "",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
@@ -168,11 +163,6 @@
         "format-muted": "Audio Muted! ",
         "on-click": "helvum",
         "format-icons": ["", "", ""]
-    },
-    "image": {
-        "path": "/home/mia/Projects/hyprland-conf/waybar/assets/emu.png",
-        "tooltip": true,
-        "on-click": "aplay /home/mia/Projects/hyprland-conf/waybar/assets/HELLO.wav"
     },
     "custom/power": {
         "format" : "⏻ ",
