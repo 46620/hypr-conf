@@ -1,4 +1,5 @@
 deploy.sh
+defaults.sh
 install-deps.sh
 hosts
 \.gitignore
