@@ -161,7 +161,8 @@
     "wireplumber": {
         "format": "{volume}% {icon}",
         "format-muted": "Audio Muted! ",
-        "on-click": "helvum",
+        "on-click": "pwvucontrol",
+        "on-click-middle": "helvum",
         "format-icons": ["", "", ""]
     },
     "custom/power": {

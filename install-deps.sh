@@ -6,6 +6,7 @@ yay -S hyprshot
 # Other AUR shit
 yay -S --cleanafter --noconfirm uwsm \
        tofi \
+       pwvucontrol \
        waypaper-engine-git
 
 # Normal repo shit
