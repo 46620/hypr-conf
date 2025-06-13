@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# For some reason these keep unsetting (im assuming it's because i have like 4 different xdg things installed)
+# For some reason these keep unsetting (im assuming it's because i have like 3 years of random desktop env installed)
 # This will run on boot every time until I fix it on my setup.
 
 # Browser (this would randomly set to r2modman)

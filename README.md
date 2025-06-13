@@ -1,9 +1,2 @@
 # hypr-conf
-My personal hyprland configs.
-
-TODO:
-- swaybar
-- dunst
-- Music player
-- Have apps use themes
-- Merge dotfiles and rename repo
+My personal hyprland configs. Commit messages are not helpful, don't even try to read the schizo posting there.
